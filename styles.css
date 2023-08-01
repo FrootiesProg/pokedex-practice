@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+}
+
+.Pokedex {
+  display: flex;
+  max-height: 400px;
+  margin: 60px;
+}
+
+.Pokecard {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  box-shadow: 10px 8px 10px -4px rgba(0, 0, 0, 0.53);
+}
+
+.Pokecard img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.Pokecard h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.Pokecard p {
+  margin: 5px 0;
+  color: black;
+  font-size: large;
+}
+
+.Pokedex .winner-message {
+  color: #4caf50;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Pokedex p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.Pokegame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pokecard.fire {
+  background-color: #ff4d00;
+}
+
+.Pokecard.water {
+  background-color: #0078d7;
+}
+
+.Pokecard.bug {
+  background-color: #8cbf26;
+}
+
+.Pokecard.flying {
+  background-color: #00bfff;
+}
+
+.Pokecard.electric {
+  background-color: #ffd700;
+}
+
+.Pokecard.normal {
+  background-color: #bfbfbf;
+}
+
+.Pokecard.poison {
+  background-color: #b4009e;
+}
